@@ -1,9 +1,6 @@
-TARGETS := lib/libfancontrol sysmodule overlay
+TARGETS := sysmodule overlay
 
 .PHONY: all $(TARGETS)
-
-lib/libfancontrol:
-	$(MAKE) -C $@
 
 overlay:
 	$(MAKE) -C $@

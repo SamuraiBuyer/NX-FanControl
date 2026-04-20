@@ -55,26 +55,26 @@ bool LoadCustomCurve(TemperaturePoint* table)
 
 const TemperaturePoint PRESET_SILENT[5] = {
     { 20,  0.05f },
-    { 45,  0.30f },
-    { 55,  0.45f },
-    { 65,  0.60f },
-    { 100, 0.80f },
+    { 47,  0.20f },
+    { 57,  0.40f },
+    { 67,  0.60f },
+    { 80,  0.85f },
 };
 
 const TemperaturePoint PRESET_BALANCED[5] = {
     { 20,  0.10f },
-    { 40,  0.50f },
-    { 50,  0.60f },
-    { 60,  0.70f },
-    { 100, 1.00f },
+    { 45,  0.30f },
+    { 55,  0.55f },
+    { 65,  0.80f },
+    { 80,  1.00f },
 };
 
 const TemperaturePoint PRESET_PERFORMANCE[5] = {
-    { 20,  0.20f },
-    { 35,  0.50f },
-    { 45,  0.70f },
-    { 55,  0.85f },
-    { 70,  1.00f },
+    { 20,  0.15f },
+    { 40,  0.45f },
+    { 52,  0.70f },
+    { 62,  0.90f },
+    { 72,  1.00f },
 };
 
 const char* PresetIndexName(int idx)
